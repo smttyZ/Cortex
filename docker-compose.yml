@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  mentis:
+    build: ./mentis
+    ports:
+      - "8080:8080" # Expose container port 8080 to the host
+    volumes:
+      - ./mentis:/app # Sync the local directory for development
+    command: ["./target/release/mentis"] # Run your Rust binary
