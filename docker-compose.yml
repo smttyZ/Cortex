@@ -1,0 +1,10 @@
+services:
+  mentis:
+    build: ./mentis
+    ports:
+      - "8080:8080"
+    working_dir: /app
+    command: ["/app/target/release/mentis"]
+    volumes:
+      - ./mentis:/app
+      - /app/target  # Prevents overwriting the built binary
