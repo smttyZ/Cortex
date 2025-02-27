@@ -1,10 +1,10 @@
-version: '3.8'
-
 services:
   mentis:
     build: ./mentis
     ports:
-      - "8080:8080" # Expose container port 8080 to the host
+      - "8080:8080"
+    working_dir: /app
+    command: ["/app/target/release/mentis"]
     volumes:
-      - ./mentis:/app # Sync the local directory for development
-    command: ["./target/release/mentis"] # Run your Rust binary
+      - ./mentis:/app
+      - /app/target  # Prevents overwriting the built binary

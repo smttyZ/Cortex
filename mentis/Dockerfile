@@ -11,4 +11,4 @@ COPY . .
 RUN cargo build --release
 
 # Specify command to run application
-CMD ["./target/release/mentis"]
+CMD ["/app/target/release/mentis"]
