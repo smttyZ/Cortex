@@ -8,18 +8,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="27911d7d-747e-46bb-8001-36adfa4aef73" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/mentis.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/.rustc_info.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/.rustc_info.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/.fingerprint/mentis-c9678f9a8dc28606/bin-mentis" beforeDir="false" afterPath="$PROJECT_DIR$/target/debug/.fingerprint/mentis-c9678f9a8dc28606/bin-mentis" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/deps/mentis.d" beforeDir="false" afterPath="$PROJECT_DIR$/target/debug/deps/mentis.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/deps/mentis.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/deps/mentis.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/mentis-22lhmdb35tcc6/s-h50w85zans-0tb678a-cj34xz3higinsh7hnxjpnberi/2sjjor36conflt6puh0dubphk.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/mentis-22lhmdb35tcc6/s-h50w85zans-0tb678a-cj34xz3higinsh7hnxjpnberi/42qpnn0zw6946dvnchdu1dbz6.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/mentis-22lhmdb35tcc6/s-h50w85zans-0tb678a-cj34xz3higinsh7hnxjpnberi/5885995o2gtmoszdb916nger7.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/mentis-22lhmdb35tcc6/s-h50w85zans-0tb678a-cj34xz3higinsh7hnxjpnberi/afhigy4z6aodb2ugszyzyeenp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/mentis-22lhmdb35tcc6/s-h50w85zans-0tb678a-cj34xz3higinsh7hnxjpnberi/bg4dxjp9e37nmhdfz3i495ui0.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/mentis-22lhmdb35tcc6/s-h50w85zans-0tb678a-cj34xz3higinsh7hnxjpnberi/dep-graph.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/mentis-22lhmdb35tcc6/s-h50w85zans-0tb678a-cj34xz3higinsh7hnxjpnberi/e4zm82estr233qn93brncrkda.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/mentis-22lhmdb35tcc6/s-h50w85zans-0tb678a-cj34xz3higinsh7hnxjpnberi/query-cache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/mentis-22lhmdb35tcc6/s-h50w85zans-0tb678a-cj34xz3higinsh7hnxjpnberi/work-products.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/mentis-22lhmdb35tcc6/s-h50w85zans-0tb678a.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/mentis.exe" beforeDir="false" afterPath="$PROJECT_DIR$/target/debug/mentis.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/mentis.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/target/debug/mentis.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="RsBuildProfile:release" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="RsBuildProfile:dev" />
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -30,39 +44,53 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;smttyZ&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/smttyZ/Cortex.git&quot;,
+    &quot;accountId&quot;: &quot;837f7d24-f4d3-483e-9d57-67c5fc5266a9&quot;
+  }
+}</component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="i22CSH82" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2tdvbNYzbHoMo3EXfnTCk4i2coB" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Docker.Dockerfile.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.rust.reset.selective.auto.import": "true",
-    "git-widget-placeholder": "working",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "org.rust.cargo.project.model.PROJECT_DISCOVERY": "true",
-    "org.rust.cargo.project.model.impl.CargoExternalSystemProjectAware.subscribe.first.balloon": "",
-    "org.rust.first.attach.projects": "true",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Cargo.Run mentis.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.Dockerfile.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.rust.reset.selective.auto.import&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;org.rust.cargo.project.model.PROJECT_DISCOVERY&quot;: &quot;true&quot;,
+    &quot;org.rust.cargo.project.model.impl.CargoExternalSystemProjectAware.subscribe.first.balloon&quot;: &quot;&quot;,
+    &quot;org.rust.first.attach.projects&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Docker.Dockerfile">
-    <configuration name="Run" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
-      <option name="buildProfileId" value="release" />
+}</component>
+  <component name="RunManager" selected="Cargo.Run mentis">
+    <configuration name="Run mentis" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="buildProfileId" value="dev" />
       <option name="command" value="run --package mentis --bin mentis" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$" />
       <envs />
@@ -79,8 +107,10 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
-      <option name="command" value="run" />
+    <configuration name="Run" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
+      <option name="buildProfileId" value="release" />
+      <option name="command" value="run --package mentis --bin mentis" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
       <envs />
       <option name="emulateTerminal" value="true" />
       <option name="channel" value="DEFAULT" />
@@ -105,11 +135,14 @@
       <method v="2" />
     </configuration>
     <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
-      <deployment type="dockerfile" />
+      <deployment type="dockerfile">
+        <settings />
+      </deployment>
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cargo.Run mentis" />
         <item itemvalue="Docker.Dockerfile" />
       </list>
     </recent_temporary>
@@ -126,6 +159,8 @@
       <option name="presentableId" value="Default" />
       <updated>1740694836955</updated>
       <workItem from="1740694841331" duration="1489000" />
+      <workItem from="1741709800949" duration="1516000" />
+      <workItem from="1741711742919" duration="65000" />
     </task>
     <servers />
   </component>
