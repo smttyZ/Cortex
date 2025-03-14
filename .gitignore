@@ -1,1 +1,8 @@
-.
+# Ignore Rust target directory
+target/
+
+# Ignore build artifacts
+**/*.rs.bk
+
+# Ignore Cargo.lock if it's a library
+Cargo.lock
