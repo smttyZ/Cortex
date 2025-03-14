@@ -5,7 +5,7 @@ use std::{
 };
 
 fn main() {
-    let listener = TcpListener::bind("127.0.0.1:7878").unwrap();
+    let listener = TcpListener::bind("0.0.0.0:3001").expect("Failed to bind port!");
 
     for stream in listener.incoming() {
         let stream = stream.unwrap();
