@@ -6,3 +6,9 @@ target/
 
 # Ignore Cargo.lock if it's a library
 Cargo.lock
+
+# Ignore node_modules
+node_modules/
+
+# Ignore compiled WebAssembly
+**/*.wasm
