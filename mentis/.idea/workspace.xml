@@ -7,7 +7,17 @@
     <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27911d7d-747e-46bb-8001-36adfa4aef73" name="Changes" comment="" />
+    <list default="true" id="27911d7d-747e-46bb-8001-36adfa4aef73" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web-client/src/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web-client/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../web-client/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web-client/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web-client/src/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web-client/src/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web-client/src/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web-client/src/tsconfig.json" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -141,6 +151,7 @@
       <workItem from="1740694841331" duration="1489000" />
       <workItem from="1741709800949" duration="1516000" />
       <workItem from="1741711742919" duration="1598000" />
+      <workItem from="1742239037510" duration="2359000" />
     </task>
     <servers />
   </component>
