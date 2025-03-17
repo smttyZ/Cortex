@@ -7,8 +7,11 @@ target/
 # Ignore Cargo.lock if it's a library
 Cargo.lock
 
-# Ignore node_modules
+# Ignore dependencies
 node_modules/
 
-# Ignore compiled WebAssembly
-**/*.wasm
+# Ignore build output
+dist/
+
+# Ignore TypeScript cache
+*.tsbuildinfo
