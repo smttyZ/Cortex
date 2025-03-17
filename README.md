@@ -37,8 +37,11 @@ I am not a good programmer (yet), and this entire repo is probably filled with b
    ```
    cargo run
    ```
-8. Done!
-
+8. Running `cargo run` will use localhost on port 3001, to change this you can add arguments like this.
+   ```
+   cargo run 0.0.0.0
+   ```
+   This will bind to all interfaces on port 3001 which is useful if you have a static IP and forwarded port.
 
 # Q&A
 ### Why?
