@@ -6,3 +6,12 @@ target/
 
 # Ignore Cargo.lock if it's a library
 Cargo.lock
+
+# Ignore dependencies
+node_modules/
+
+# Ignore build output
+dist/
+
+# Ignore TypeScript cache
+*.tsbuildinfo
