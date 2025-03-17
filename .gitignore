@@ -1,17 +1,39 @@
-# Ignore Rust target directory
-target/
-
-# Ignore build artifacts
+# Rust build artifacts
+/target/
+**/target/
 **/*.rs.bk
-
-# Ignore Cargo.lock if it's a library
 Cargo.lock
 
-# Ignore dependencies
+# Node.js dependencies
 node_modules/
+**/node_modules/
 
-# Ignore build output
+# Build output
 dist/
+**/dist/
 
-# Ignore TypeScript cache
+# TypeScript cache
 *.tsbuildinfo
+
+# Editor/IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local

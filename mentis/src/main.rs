@@ -1,4 +1,5 @@
 use std::{
+    env,
     fs,
     io::{prelude::*, BufReader},
     net::{TcpListener, TcpStream},
@@ -6,8 +7,23 @@ use std::{
 };
 
 fn main() {
-    let listener =
-        TcpListener::bind("0.0.0.0:3001").expect("Failed to bind port!");
+    // Default values
+    let default_host = "127.0.0.1";
+    let default_port = "3001";
+    
+    // Parse command line arguments
+    let args: Vec<String> = env::args().collect();
+    
+    // Get host and port from arguments or use defaults
+    let host = args.get(1).map_or(default_host, |s| s);
+    let port = args.get(2).map_or(default_port, |s| s);
+    
+    let address = format!("{}:{}", host, port);
+    
+    println!("Starting server on {}", address);
+    
+    let listener = TcpListener::bind(&address)
+        .expect(&format!("Failed to bind to {}!", address));
 
     for stream in listener.incoming() {
         let stream = stream.unwrap();
@@ -30,10 +46,13 @@ fn handle_connection(mut stream: TcpStream) {
         return;
     }
 
+    // Define the base path for static files
+    let base_path = "../web-client/dist";
+
     let filepath = if path == "/" {
-        "../web-client/dist/index.html".to_string()
+        format!("{}/index.html", base_path)
     } else {
-        format!("../web-client/dist{}", path)
+        format!("{}{}", base_path, path)
     };
 
     if Path::new(&filepath).exists() {
