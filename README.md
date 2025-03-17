@@ -1,5 +1,5 @@
 # The Cortex Project.
-An extremely robust and modular server built with Rust, Go, C#, and Typescript.
+An extremely robust and modular server built with Rust and Typescript.
 
 ## Key Features
 - High-performance computation core built using Rust.
