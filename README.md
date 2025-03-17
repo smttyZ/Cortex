@@ -52,4 +52,5 @@ Soon™.
 I'm just a student, and i can't work on this full time. But the hope is that someone sees this and i can save at least one computer from getting tossed out. The less E-waste, the better.
 
 ### How can i help?
-I'll admit, I'm not great at working with others. But if you make a pull request, i'll *try* to look at it. No promises. You can also reach out to me for just about any reason here!
+I'll admit, I'm not great at working with others. But if you make a pull request, i'll *try* to look at it. No promises. You can also reach out to me for just about any reason on discord: 
+* smittyzzz
