@@ -11,6 +11,9 @@ node_modules/
 # Build output
 dist/
 **/dist/
+# Specifically ignore bundled JS files but keep the directory structure
+**/dist/*.js
+**/dist/*.js.map
 
 # TypeScript cache
 *.tsbuildinfo
