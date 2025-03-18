@@ -91,7 +91,7 @@ fn handle_sysinfo(stream: &mut TcpStream) {
         r#"{{
             "uptime": {},"cpu_usage": {:.2},"total_memory": {},"used_memory": {}
         }}"#,
-        sys.uptime(),
+        sysinfo::System::uptime(),
         sys.global_cpu_info().cpu_usage(),
         sys.total_memory(),
         sys.used_memory()
