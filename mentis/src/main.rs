@@ -6,8 +6,7 @@ use std::{
     path::Path,
 };
 
-use sysinfo::{System, CpuExt, SystemExt};
-
+use sysinfo::{System, CpuInfo};
 
 fn main() {
     // Default values
@@ -88,12 +87,14 @@ fn handle_sysinfo(stream: &mut TcpStream) {
     let mut sys = System::new_all();
     sys.refresh_all();
 
+    let cpu_usage: f32 = sys.cpus().iter().map(|cpu| cpu.cpu_usage()).sum::<f32>() / sys.cpus().len() as f32;
+
     let json_response = format!(
         r#"{{
             "uptime": {},"cpu_usage": {:.2},"total_memory": {},"used_memory": {}
         }}"#,
-        sys.uptime(),
-        sys.global_cpu_info().cpu_usage(),
+        System::uptime(&sys),
+        cpu_usage,
         sys.total_memory(),
         sys.used_memory()
     );
