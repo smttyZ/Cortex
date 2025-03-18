@@ -1,2 +1,2 @@
 
-# PROJECT NEEDS TO BE COMPILED BEFORE IT WILL RUN!!! (duh)
+# Nothing here but us chickens ;)
