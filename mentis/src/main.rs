@@ -6,6 +6,9 @@ use std::{
     path::Path,
 };
 
+use sysinfo::{System, CpuExt, SystemExt};
+
+
 fn main() {
     // Default values
     let default_host = "127.0.0.1";
@@ -46,6 +49,11 @@ fn handle_connection(mut stream: TcpStream) {
         return;
     }
 
+    if path == "/sysinfo" {
+        handle_sysinfo(&mut stream);
+        return;
+    }
+
     // Define the base path for static files
     let base_path = "../web-client/dist";
 
@@ -73,5 +81,28 @@ fn send_response(stream: &mut TcpStream, status_line: &str, message: &str) {
     let response = format!("{status_line}\r\nContent-Length: {}\r\n\r\n{}",
                            message.len(),
                            message);
+    stream.write_all(response.as_bytes()).unwrap();
+}
+
+fn handle_sysinfo(stream: &mut TcpStream) {
+    let mut sys = System::new_all();
+    sys.refresh_all();
+
+    let json_response = format!(
+        r#"{{
+            "uptime": {},"cpu_usage": {:.2},"total_memory": {},"used_memory": {}
+        }}"#,
+        sys.uptime(),
+        sys.global_cpu_info().cpu_usage(),
+        sys.total_memory(),
+        sys.used_memory()
+    );
+
+    let response = format!(
+        "HTTP/1.1 200 OK\r\nContent-Type: application/json\r\nContent-Length: {}\r\n\r\n{}",
+        json_response.len(),
+        json_response
+    );
+
     stream.write_all(response.as_bytes()).unwrap();
 }
