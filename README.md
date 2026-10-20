@@ -69,5 +69,9 @@ Soon™.
 I'm just a student, and I can't work on this full time. But the hope is that someone sees this and I can save at least one computer from getting tossed out. The less e-waste, the better.
 
 ### How can I help?
-I'll admit, I'm not great at working with others. But if you make a pull request, I'll *try* to look at it. No promises. You can also reach out to me for just about any reason on Discord: 
-* smittyzzz
+Pull requests and issues are welcome! If you want to talk about the project first, reach out below.
+
+# Contact
+Feel free to reach out for just about any reason:
+* **Email:** smttyz4@gmail.com
+* **Discord:** smittyzzz
