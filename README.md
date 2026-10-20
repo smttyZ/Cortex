@@ -62,7 +62,7 @@ I am not a good programmer (yet), and this entire repo is probably filled with b
 To anyone who's ever had a decade-old computer they just can't get rid of, this is your solution. Whether it's because you have memories with it, or you're just too lazy, this project aims to breathe some new life into that hardware!
 
 ### Ok, but why Rust?
-I personally think Rust is the new C. With memory management and a compiler that refuses to let you write unsafe code, it's relatively easy to write highly optimized programs. Which is exactly what these older systems need.
+I personally think Rust is the new C. With memory management and a compiler that refuses to let you write memory-unsafe code (unless you explicitly ask for it), it's relatively easy to write highly optimized programs. Which is exactly what these older systems need.
 
 ### Why does it suck so much, and when will it get better?
 Soon™.
